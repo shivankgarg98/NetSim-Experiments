@@ -1,0 +1,19 @@
+Start program >2018/09/01 18:33:21
+Data Path > C:\Users\shivank\AppData\Roaming\NetSim\std10.2.10\GUIConfigurations\
+Start xml Reading loading >2018/09/01 18:33:22
+Start Plugin >2018/09/01 18:33:22
+Xml reading done >2018/09/01 18:33:22
+Stop Plugin >2018/09/01 18:33:22
+start  animation view >2018/09/01 18:33:22
+End animation view >2018/09/01 18:33:22
+Start Table view >2018/09/01 18:33:22
+End Table view >2018/09/01 18:33:22
+thread check  >2018/09/01 18:33:22
+Start loading >2018/09/01 18:33:23
+END loading >2018/09/01 18:33:23
+Play Button Pressed >2018/09/01 18:33:26
+Stop Button Pressed >2018/09/01 18:35:09
+Stop Button Pressed >2018/09/01 18:35:15
+Play Button Pressed >2018/09/01 18:35:17
+CheckBox :WIRED NODE A selected >2018/09/01 18:37:14
+Stop Button Pressed >2018/09/01 18:43:24
