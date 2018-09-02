@@ -2,3 +2,6 @@
 
 * __Exp_1__ - Understand IP forwarding within a LAN and across a router https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_2.htm
 * __Exp_2  -__ Simulate and study the spanning tree protocol https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_3.htm
+* __Exp_3 -__ Understand the working of “Connection Establishment” in TCP https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_4.htm
+* __Exp_4 -__ Study Star, Bus and Ring topologies and analyze their throughputs https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_6.htm
+* __Exp_5 -__ 
