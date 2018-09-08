@@ -1,0 +1,93 @@
+Network_Metrics
+
+Link_id,Link_throughput_plot,Packet_transmitted,Packet_transmitted,Packet_errored,Packet_errored,Packet_collided,Packet_collided,Bytes_transmitted(bytes),Payload_transmitted(bytes),Overhead_transmitted(bytes)
+ , ,Data,Control,Data,Control,Data,Control, , , 
+All,NA,100119,0,0,0,0,0,130555176,125148750,5406426
+1,Link_throughput,50059,0,0,0,0,0,65276936,62573750,2703186
+2,Link_throughput,50060,0,0,0,0,0,65278240,62575000,2703240
+
+
+
+
+Queue_Metrics
+
+Device_id,Port_id,Queued_packet,Dequeued_packet,Dropped_packet
+3,1,50060,50060,0
+3,2,0,0,0
+
+
+
+
+TCP_Metrics
+
+Source,Destination,Local Address,Remote Address,Syn Sent,Syn-Ack Sent,Segment Sent,Segment Received,Segment Retransmitted,Ack Sent,Ack Received,Duplicate segment received,Out of order segment received,Duplicate ack received,Times RTO expired,Congestion Plot
+WIRED NODE B,ANY_DEVICE,11.2.1.2:0,0.0.0.0:0,0,0,0,0,0,0,0,0,0,0,0,N/A
+ROUTER C,ANY_DEVICE,11.1.1.1:0,0.0.0.0:0,0,0,0,0,0,0,0,0,0,0,0,N/A
+
+
+
+
+IP_Metrics
+
+Device Id,Packet sent,Packet forwarded,Packet received,Packet discarded,TTL expired,Firewall blocked
+1,0,0,50059,0,0,0
+2,50063,0,0,0,0,0
+3,50060,50060,0,0,0,0
+
+
+
+
+WIRED NODE A
+
+Network Destination,Netmask/Prefix len,Gateway,Interface,Metrics,Type
+11.1.0.0,255.255.0.0,on-link,11.1.1.2 ,300,LOCAL
+224.0.0.1,255.255.255.255,on-link,11.1.1.2 ,306,MULTICAST
+224.0.0.0,240.0.0.0,on-link,11.1.1.2 ,306,MULTICAST
+255.255.255.255,255.255.255.255,on-link,11.1.1.2 ,999,BROADCAST
+0.0.0.0,0.0.0.0,11.1.1.1,11.1.1.2 ,999,DEFAULT
+
+
+
+
+WIRED NODE B
+
+Network Destination,Netmask/Prefix len,Gateway,Interface,Metrics,Type
+11.2.0.0,255.255.0.0,on-link,11.2.1.2 ,300,LOCAL
+224.0.0.1,255.255.255.255,on-link,11.2.1.2 ,306,MULTICAST
+224.0.0.0,240.0.0.0,on-link,11.2.1.2 ,306,MULTICAST
+255.255.255.255,255.255.255.255,on-link,11.2.1.2 ,999,BROADCAST
+0.0.0.0,0.0.0.0,11.2.1.1,11.2.1.2 ,999,DEFAULT
+
+
+
+
+ROUTER C
+
+Network Destination,Netmask/Prefix len,Gateway,Interface,Metrics,Type
+11.2.0.0,255.255.0.0,on-link,11.2.1.1 ,300,LOCAL
+11.1.0.0,255.255.0.0,on-link,11.1.1.1 ,300,LOCAL
+224.0.0.1,255.255.255.255,on-link,11.1.1.1 11.2.1.1 ,306,MULTICAST
+224.0.0.0,240.0.0.0,on-link,11.1.1.1 11.2.1.1 ,306,MULTICAST
+255.255.255.255,255.255.255.255,on-link,11.2.1.1 ,999,BROADCAST
+255.255.255.255,255.255.255.255,on-link,11.1.1.1 ,999,BROADCAST
+
+
+
+
+UDP Metrics
+
+Device id,Local address,Foreign address,Datagram sent,Datagram received
+1,11.1.1.2:36934,11.2.1.2:82,0,50059
+2,11.2.1.2:82,11.1.1.2:36934,50063,0
+
+
+
+
+Application_Metrics
+
+Application Id,Throughput Plot,Application Name,Source Id,Destination Id,Packet transmitted,Packet received,Payload transmitted (bytes),Payload received (bytes),Throughput (Mbps),Delay(microsec)
+1,Application_throughput_plot,APP1_CUSTOM,2,1,50063,50059,62578750,62573750,5.005900,2669.406063
+
+
+
+
