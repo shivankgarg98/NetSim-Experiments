@@ -4,5 +4,5 @@
 * __Exp_2  -__ Simulate and study the spanning tree protocol https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_3.htm
 * __Exp_3 -__ Understand the working of “Connection Establishment” in TCP https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_4.htm
 * __Exp_4 -__ Study Star, Bus and Ring topologies and analyze their throughputs https://www.tetcos.com/downloads/NetSim-v10-exp-manual/Experiment_6.htm
-* __Exp_5 -__ Simulations of M/M/1 and M/D/1 queues https://www.tetcos.com/downloads/NetSim-v10-exp-manual/index.htm#t=Experiment_16.htm
+* __Exp_5 -__ Simulations of M/M/1, M/D/1 and N/N/1 queues https://www.tetcos.com/downloads/NetSim-v10-exp-manual/index.htm#t=Experiment_16.htm
 *
