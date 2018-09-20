@@ -1,4 +1,4 @@
-##Modeling M/G/1 queue using NetSim Software-
+## Modeling M/G/1 queue using NetSim Software- ##
 
 We can easily simulate an M/D/1 or M/M/1 queue in Netsim using the NetSim GUI as given in instructions `https://www.tetcos.com/downloads/NetSim-v10-exp-manual/#t=Experiment_16.htm`. But how to simulate M/G/1 queue in NetSim? So here is a step-wise-step tutorial-
 
