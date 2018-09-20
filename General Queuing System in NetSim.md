@@ -24,7 +24,7 @@ For example- I commented the code of constant distribution and inserted a weibul
 ```
 Step 4: Save the new code and Rebuild the solution for `Application` only by right-clicking on it in Solution Explorer.
 Make Sure you have selected the correct solution platform in `Build->Configuration Manager` in Menu.( Choose x64).
-Step 5: Check in `C:\Program Files\NetSim Standard\src\Simulation\Dll. `libApplication.dll` has been modified due to rebuilding of solution.
+Step 5: Check in `C:\Program Files\NetSim Standard\src\Simulation\Dll`. `libApplication.dll` has been modified due to rebuilding of solution.
 Step 6: Copy the new `libApplication.dll` and save it in `C:\Program Files\NetSim Standard\bin`. Don't delete the original .dll file, either rename the original file or save it somewhere else.
 Step 7: Open NetSim Standard GUI and simulate it as we did for `M/D/1` queue.
 Step 8: It will show warning about changing the libApplication.dll. Press any key and wait for simulation to end.
