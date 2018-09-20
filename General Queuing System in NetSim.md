@@ -8,13 +8,14 @@ Step 3: In GUI mode only constant and exponential distribution are available, So
 For example- I commented the code of constant distribution and inserted a weibull distribution function there.
 ```C++
 	case Distribution_Constant: /*Constant Distribution function*/
-		/*Weibull distribution Function*/
-		fFirstArg = args[0
+		
+		/*Normal Distribution Function*/
+		fFirstArg = args[0];
 		fSecondArg = args[1];
 		nRandOut = fnRandomNo(10000000, &fRand, uSeed, uSeed1);
 		fRandomNumber = (double)(fRand);
-		*fDistOut = (fFirstArg * (double)pow((-(double)logl(1 - (1
-			- fRandomNumber))), 1 / fSecondArg));
+		*fDistOut = (double)(fFirstArg + fSecondArg * sqrt(2) * ErrorFun(2
+			* fRandomNumber - 1));
 		break;
 		/*
 		fFirstArg = args[0];
@@ -27,5 +28,6 @@ Step 5: Check in `C:\Program Files\NetSim Standard\src\Simulation\Dll. `libAppli
 Step 6: Copy the new `libApplication.dll` and save it in `C:\Program Files\NetSim Standard\bin`. Don't delete the original .dll file, either rename the original file or save it somewhere else.
 Step 7: Open NetSim Standard GUI and simulate it as we did for `M/D/1` queue.
 Step 8: It will show warning about changing the libApplication.dll. Press any key and wait for simulation to end.
+**End**
 
 For more details over simulating your code in NetSim see this video - `https://youtu.be/fdn9p_KN82s?t=9m42s`.
