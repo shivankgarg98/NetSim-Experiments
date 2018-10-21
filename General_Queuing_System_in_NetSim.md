@@ -3,7 +3,9 @@
 We can easily simulate an M/D/1 or M/M/1 queue in Netsim using the NetSim GUI as given in instructions `https://www.tetcos.com/downloads/NetSim-v10-exp-manual/#t=Experiment_16.htm`. But how to simulate M/G/1 queue in NetSim? So here is a step-wise-step tutorial-
 
 Step 1: Go to `C:\Program Files\NetSim Standard\src\Simulation`. Open `NetSim.sln` using Visual Studio 2015.
+
 Step 2: In Solution Explorer look for `Distribution.c` in Application.
+
 Step 3: In GUI mode only constant and exponential distribution is available, So replace the algorithm of one of the distributions with the one you wish to simulate.
 For example- I commented the code of constant distribution and inserted a Normal distribution function there.
 ```C++
