@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<NETSIM_ANIMATION>
+ <!--NETSIM_ANIMATION-->
+ <MENU NAME="Link Throughput" isNewScreen="false">
+  <MENU NAME="Link_1_Throughput" isNewScreen="true" FileName="C:\Users\shivank\AppData\Local\Temp\NetSim\plot_Link_1_Throughput.txt" Type="2dplot"/>
+  <MENU NAME="Link_2_Throughput" isNewScreen="true" FileName="C:\Users\shivank\AppData\Local\Temp\NetSim\plot_Link_2_Throughput.txt" Type="2dplot"/>
+  <MENU NAME="Link_3_Throughput" isNewScreen="true" FileName="C:\Users\shivank\AppData\Local\Temp\NetSim\plot_Link_3_Throughput.txt" Type="2dplot"/>
+  <MENU NAME="Link_4_Throughput" isNewScreen="true" FileName="C:\Users\shivank\AppData\Local\Temp\NetSim\plot_Link_4_Throughput.txt" Type="2dplot"/>
+ </MENU>
+ <MENU NAME="IP Table" isNewScreen="false">
+  <MENU NAME="WIRED NODE A" isNewScreen="true" FileName="Animation_WIRED_NODE_A.txt" Type="table"/>
+  <MENU NAME="ROUTER B" isNewScreen="true" FileName="Animation_ROUTER_B.txt" Type="table"/>
+  <MENU NAME="MME C" isNewScreen="true" FileName="Animation_MME_C.txt" Type="table"/>
+  <MENU NAME="UE E" isNewScreen="true" FileName="Animation_UE_E.txt" Type="table"/>
+  <MENU NAME="UE F" isNewScreen="true" FileName="Animation_UE_F.txt" Type="table"/>
+  <MENU NAME="UE G" isNewScreen="true" FileName="Animation_UE_G.txt" Type="table"/>
+  <MENU NAME="UE H" isNewScreen="true" FileName="Animation_UE_H.txt" Type="table"/>
+ </MENU>
+ <MENU NAME="Node Movement" isNewScreen="false" FileName="Animation_Node_Movement.txt" Type="generic"/>
+ <MENU NAME="Application Throughput" isNewScreen="false">
+  <MENU NAME="APP1_CBR_Throughput" isNewScreen="true" FileName="C:\Users\shivank\AppData\Local\Temp\NetSim\plot_APP1_CBR_Throughput.txt" Type="2dplot"/>
+ </MENU>
+ <MENU NAME="Transmit_packet" isNewScreen="false" FileName="Animation_Transmit_packet.txt" Type="generic"/>
+</NETSIM_ANIMATION>
