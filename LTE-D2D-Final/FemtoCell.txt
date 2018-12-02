@@ -1,0 +1,19 @@
+
+
+# Femtocell Group
+HNB Gateway Id		HNB Id-HNB interface
+2		
+3		4-1,
+
+
+# Interfering Group
+HNB Gateway Id		HNB Ids-CA ids
+2		
+3		4-0,4-0,
+   		
+
+
+# Allocation Information
+HNB Id-CA Id		Fmin	Fmax	RBstart	RBend
+4-0		2110.00	2125.00		0	72
+4-0		2125.00	2140.00		0	72
